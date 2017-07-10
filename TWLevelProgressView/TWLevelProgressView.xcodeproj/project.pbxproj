@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		576ABDCB7AA5C524EADC0275 /* libPods-TWLevelProgressView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF73487FC8D5E9A5A8FD6820 /* libPods-TWLevelProgressView.a */; };
+		EBD2AFA01F13272800E90BAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD2AF9F1F13272800E90BAF /* main.m */; };
+		EBD2AFA31F13272800E90BAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD2AFA21F13272800E90BAF /* AppDelegate.m */; };
+		EBD2AFA61F13272800E90BAF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD2AFA51F13272800E90BAF /* ViewController.m */; };
+		EBD2AFA91F13272800E90BAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AFA71F13272800E90BAF /* Main.storyboard */; };
+		EBD2AFAB1F13272800E90BAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AFAA1F13272800E90BAF /* Assets.xcassets */; };
+		EBD2AFAE1F13272800E90BAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AFAC1F13272800E90BAF /* LaunchScreen.storyboard */; };
+		EBD2AFB91F13272800E90BAF /* TWLevelProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD2AFB81F13272800E90BAF /* TWLevelProgressViewTests.m */; };
+		EBD2AFC41F13272800E90BAF /* TWLevelProgressViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD2AFC31F13272800E90BAF /* TWLevelProgressViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBD2AFB51F13272800E90BAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBD2AF931F13272800E90BAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBD2AF9A1F13272800E90BAF;
+			remoteInfo = TWLevelProgressView;
+		};
+		EBD2AFC01F13272800E90BAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBD2AF931F13272800E90BAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBD2AF9A1F13272800E90BAF;
+			remoteInfo = TWLevelProgressView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		728421DE8205A5EDB4FD4803 /* Pods-TWLevelProgressView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWLevelProgressView.release.xcconfig"; path = "Pods/Target Support Files/Pods-TWLevelProgressView/Pods-TWLevelProgressView.release.xcconfig"; sourceTree = "<group>"; };
+		9353727A9203CBD68953721A /* Pods-TWLevelProgressView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWLevelProgressView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TWLevelProgressView/Pods-TWLevelProgressView.debug.xcconfig"; sourceTree = "<group>"; };
+		EBD2AF9B1F13272800E90BAF /* TWLevelProgressView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TWLevelProgressView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD2AF9F1F13272800E90BAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBD2AFA11F13272800E90BAF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EBD2AFA21F13272800E90BAF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EBD2AFA41F13272800E90BAF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EBD2AFA51F13272800E90BAF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EBD2AFA81F13272800E90BAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBD2AFAA1F13272800E90BAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBD2AFAD1F13272800E90BAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBD2AFAF1F13272800E90BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBD2AFB41F13272800E90BAF /* TWLevelProgressViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TWLevelProgressViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD2AFB81F13272800E90BAF /* TWLevelProgressViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWLevelProgressViewTests.m; sourceTree = "<group>"; };
+		EBD2AFBA1F13272800E90BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBD2AFBF1F13272800E90BAF /* TWLevelProgressViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TWLevelProgressViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD2AFC31F13272800E90BAF /* TWLevelProgressViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWLevelProgressViewUITests.m; sourceTree = "<group>"; };
+		EBD2AFC51F13272800E90BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF73487FC8D5E9A5A8FD6820 /* libPods-TWLevelProgressView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TWLevelProgressView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBD2AF981F13272800E90BAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				576ABDCB7AA5C524EADC0275 /* libPods-TWLevelProgressView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD2AFB11F13272800E90BAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD2AFBC1F13272800E90BAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04E56801066A41B765B3F44F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9353727A9203CBD68953721A /* Pods-TWLevelProgressView.debug.xcconfig */,
+				728421DE8205A5EDB4FD4803 /* Pods-TWLevelProgressView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		861BBCEEC9D650BB660286D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF73487FC8D5E9A5A8FD6820 /* libPods-TWLevelProgressView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBD2AF921F13272800E90BAF = {
+			isa = PBXGroup;
+			children = (
+				EBD2AF9D1F13272800E90BAF /* TWLevelProgressView */,
+				EBD2AFB71F13272800E90BAF /* TWLevelProgressViewTests */,
+				EBD2AFC21F13272800E90BAF /* TWLevelProgressViewUITests */,
+				EBD2AF9C1F13272800E90BAF /* Products */,
+				04E56801066A41B765B3F44F /* Pods */,
+				861BBCEEC9D650BB660286D8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EBD2AF9C1F13272800E90BAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBD2AF9B1F13272800E90BAF /* TWLevelProgressView.app */,
+				EBD2AFB41F13272800E90BAF /* TWLevelProgressViewTests.xctest */,
+				EBD2AFBF1F13272800E90BAF /* TWLevelProgressViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBD2AF9D1F13272800E90BAF /* TWLevelProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				EBD2AFA11F13272800E90BAF /* AppDelegate.h */,
+				EBD2AFA21F13272800E90BAF /* AppDelegate.m */,
+				EBD2AFA41F13272800E90BAF /* ViewController.h */,
+				EBD2AFA51F13272800E90BAF /* ViewController.m */,
+				EBD2AFA71F13272800E90BAF /* Main.storyboard */,
+				EBD2AFAA1F13272800E90BAF /* Assets.xcassets */,
+				EBD2AFAC1F13272800E90BAF /* LaunchScreen.storyboard */,
+				EBD2AFAF1F13272800E90BAF /* Info.plist */,
+				EBD2AF9E1F13272800E90BAF /* Supporting Files */,
+			);
+			path = TWLevelProgressView;
+			sourceTree = "<group>";
+		};
+		EBD2AF9E1F13272800E90BAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBD2AF9F1F13272800E90BAF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBD2AFB71F13272800E90BAF /* TWLevelProgressViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBD2AFB81F13272800E90BAF /* TWLevelProgressViewTests.m */,
+				EBD2AFBA1F13272800E90BAF /* Info.plist */,
+			);
+			path = TWLevelProgressViewTests;
+			sourceTree = "<group>";
+		};
+		EBD2AFC21F13272800E90BAF /* TWLevelProgressViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EBD2AFC31F13272800E90BAF /* TWLevelProgressViewUITests.m */,
+				EBD2AFC51F13272800E90BAF /* Info.plist */,
+			);
+			path = TWLevelProgressViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBD2AF9A1F13272800E90BAF /* TWLevelProgressView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBD2AFC81F13272800E90BAF /* Build configuration list for PBXNativeTarget "TWLevelProgressView" */;
+			buildPhases = (
+				0F6EB047384F7AE92377EC41 /* [CP] Check Pods Manifest.lock */,
+				EBD2AF971F13272800E90BAF /* Sources */,
+				EBD2AF981F13272800E90BAF /* Frameworks */,
+				EBD2AF991F13272800E90BAF /* Resources */,
+				2D7EB0AA19DF9E2E83C12A7F /* [CP] Embed Pods Frameworks */,
+				71032E843CA9A828BA94F516 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TWLevelProgressView;
+			productName = TWLevelProgressView;
+			productReference = EBD2AF9B1F13272800E90BAF /* TWLevelProgressView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBD2AFB31F13272800E90BAF /* TWLevelProgressViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBD2AFCB1F13272800E90BAF /* Build configuration list for PBXNativeTarget "TWLevelProgressViewTests" */;
+			buildPhases = (
+				EBD2AFB01F13272800E90BAF /* Sources */,
+				EBD2AFB11F13272800E90BAF /* Frameworks */,
+				EBD2AFB21F13272800E90BAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBD2AFB61F13272800E90BAF /* PBXTargetDependency */,
+			);
+			name = TWLevelProgressViewTests;
+			productName = TWLevelProgressViewTests;
+			productReference = EBD2AFB41F13272800E90BAF /* TWLevelProgressViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EBD2AFBE1F13272800E90BAF /* TWLevelProgressViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBD2AFCE1F13272800E90BAF /* Build configuration list for PBXNativeTarget "TWLevelProgressViewUITests" */;
+			buildPhases = (
+				EBD2AFBB1F13272800E90BAF /* Sources */,
+				EBD2AFBC1F13272800E90BAF /* Frameworks */,
+				EBD2AFBD1F13272800E90BAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBD2AFC11F13272800E90BAF /* PBXTargetDependency */,
+			);
+			name = TWLevelProgressViewUITests;
+			productName = TWLevelProgressViewUITests;
+			productReference = EBD2AFBF1F13272800E90BAF /* TWLevelProgressViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBD2AF931F13272800E90BAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = haKim;
+				TargetAttributes = {
+					EBD2AF9A1F13272800E90BAF = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = W398QN8ZGP;
+						ProvisioningStyle = Automatic;
+					};
+					EBD2AFB31F13272800E90BAF = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = W398QN8ZGP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EBD2AF9A1F13272800E90BAF;
+					};
+					EBD2AFBE1F13272800E90BAF = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = W398QN8ZGP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EBD2AF9A1F13272800E90BAF;
+					};
+				};
+			};
+			buildConfigurationList = EBD2AF961F13272800E90BAF /* Build configuration list for PBXProject "TWLevelProgressView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBD2AF921F13272800E90BAF;
+			productRefGroup = EBD2AF9C1F13272800E90BAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBD2AF9A1F13272800E90BAF /* TWLevelProgressView */,
+				EBD2AFB31F13272800E90BAF /* TWLevelProgressViewTests */,
+				EBD2AFBE1F13272800E90BAF /* TWLevelProgressViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBD2AF991F13272800E90BAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD2AFAE1F13272800E90BAF /* LaunchScreen.storyboard in Resources */,
+				EBD2AFAB1F13272800E90BAF /* Assets.xcassets in Resources */,
+				EBD2AFA91F13272800E90BAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD2AFB21F13272800E90BAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD2AFBD1F13272800E90BAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F6EB047384F7AE92377EC41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2D7EB0AA19DF9E2E83C12A7F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TWLevelProgressView/Pods-TWLevelProgressView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71032E843CA9A828BA94F516 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TWLevelProgressView/Pods-TWLevelProgressView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBD2AF971F13272800E90BAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD2AFA61F13272800E90BAF /* ViewController.m in Sources */,
+				EBD2AFA31F13272800E90BAF /* AppDelegate.m in Sources */,
+				EBD2AFA01F13272800E90BAF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD2AFB01F13272800E90BAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD2AFB91F13272800E90BAF /* TWLevelProgressViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD2AFBB1F13272800E90BAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD2AFC41F13272800E90BAF /* TWLevelProgressViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBD2AFB61F13272800E90BAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBD2AF9A1F13272800E90BAF /* TWLevelProgressView */;
+			targetProxy = EBD2AFB51F13272800E90BAF /* PBXContainerItemProxy */;
+		};
+		EBD2AFC11F13272800E90BAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBD2AF9A1F13272800E90BAF /* TWLevelProgressView */;
+			targetProxy = EBD2AFC01F13272800E90BAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBD2AFA71F13272800E90BAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBD2AFA81F13272800E90BAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBD2AFAC1F13272800E90BAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBD2AFAD1F13272800E90BAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBD2AFC61F13272800E90BAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBD2AFC71F13272800E90BAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBD2AFC91F13272800E90BAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9353727A9203CBD68953721A /* Pods-TWLevelProgressView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W398QN8ZGP;
+				INFOPLIST_FILE = TWLevelProgressView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hakim.TWLevelProgressView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EBD2AFCA1F13272800E90BAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 728421DE8205A5EDB4FD4803 /* Pods-TWLevelProgressView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W398QN8ZGP;
+				INFOPLIST_FILE = TWLevelProgressView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hakim.TWLevelProgressView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EBD2AFCC1F13272800E90BAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = W398QN8ZGP;
+				INFOPLIST_FILE = TWLevelProgressViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hakim.TWLevelProgressViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TWLevelProgressView.app/TWLevelProgressView";
+			};
+			name = Debug;
+		};
+		EBD2AFCD1F13272800E90BAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = W398QN8ZGP;
+				INFOPLIST_FILE = TWLevelProgressViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hakim.TWLevelProgressViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TWLevelProgressView.app/TWLevelProgressView";
+			};
+			name = Release;
+		};
+		EBD2AFCF1F13272800E90BAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = W398QN8ZGP;
+				INFOPLIST_FILE = TWLevelProgressViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hakim.TWLevelProgressViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TWLevelProgressView;
+			};
+			name = Debug;
+		};
+		EBD2AFD01F13272800E90BAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = W398QN8ZGP;
+				INFOPLIST_FILE = TWLevelProgressViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hakim.TWLevelProgressViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TWLevelProgressView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBD2AF961F13272800E90BAF /* Build configuration list for PBXProject "TWLevelProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD2AFC61F13272800E90BAF /* Debug */,
+				EBD2AFC71F13272800E90BAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBD2AFC81F13272800E90BAF /* Build configuration list for PBXNativeTarget "TWLevelProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD2AFC91F13272800E90BAF /* Debug */,
+				EBD2AFCA1F13272800E90BAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EBD2AFCB1F13272800E90BAF /* Build configuration list for PBXNativeTarget "TWLevelProgressViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD2AFCC1F13272800E90BAF /* Debug */,
+				EBD2AFCD1F13272800E90BAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EBD2AFCE1F13272800E90BAF /* Build configuration list for PBXNativeTarget "TWLevelProgressViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD2AFCF1F13272800E90BAF /* Debug */,
+				EBD2AFD01F13272800E90BAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBD2AF931F13272800E90BAF /* Project object */;
+}
