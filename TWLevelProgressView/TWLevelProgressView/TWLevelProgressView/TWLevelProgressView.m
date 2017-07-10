@@ -388,7 +388,7 @@
         [path addLineToPoint:CGPointMake(self.slideWidth / 2, 6)];
         [path closePath];
         
-        layer.fillColor = [UIColor colorWithHex:0xaa8951].CGColor;
+        layer.fillColor = [UIColor orangeColor].CGColor;
         
         layer.path = path.CGPath;
         [self.indicateContentView.layer addSublayer:layer];
