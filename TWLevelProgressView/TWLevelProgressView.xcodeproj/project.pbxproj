@@ -16,6 +16,11 @@
 		EBD2AFAE1F13272800E90BAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBD2AFAC1F13272800E90BAF /* LaunchScreen.storyboard */; };
 		EBD2AFB91F13272800E90BAF /* TWLevelProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD2AFB81F13272800E90BAF /* TWLevelProgressViewTests.m */; };
 		EBD2AFC41F13272800E90BAF /* TWLevelProgressViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD2AFC31F13272800E90BAF /* TWLevelProgressViewUITests.m */; };
+		EBD2AFDF1F13294600E90BAF /* UIColor+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD2AFDE1F13294600E90BAF /* UIColor+Utility.m */; };
+		EBD2AFE31F132BFC00E90BAF /* TWLevelProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD2AFE21F132BFC00E90BAF /* TWLevelProgressView.m */; };
+		EBD2AFE91F132FC600E90BAF /* TWNormalLevelView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD2AFE81F132FC600E90BAF /* TWNormalLevelView.m */; };
+		EBD2AFEC1F132FD600E90BAF /* TWLastLevelView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD2AFEB1F132FD600E90BAF /* TWLastLevelView.m */; };
+		EBD2AFF01F1349E000E90BAF /* TWLevelTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD2AFEF1F1349E000E90BAF /* TWLevelTestModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +59,18 @@
 		EBD2AFBF1F13272800E90BAF /* TWLevelProgressViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TWLevelProgressViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBD2AFC31F13272800E90BAF /* TWLevelProgressViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWLevelProgressViewUITests.m; sourceTree = "<group>"; };
 		EBD2AFC51F13272800E90BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBD2AFDD1F13294600E90BAF /* UIColor+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Utility.h"; sourceTree = "<group>"; };
+		EBD2AFDE1F13294600E90BAF /* UIColor+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Utility.m"; sourceTree = "<group>"; };
+		EBD2AFE01F132B0600E90BAF /* TWCommonMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWCommonMacro.h; sourceTree = "<group>"; };
+		EBD2AFE11F132BFC00E90BAF /* TWLevelProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWLevelProgressView.h; sourceTree = "<group>"; };
+		EBD2AFE21F132BFC00E90BAF /* TWLevelProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWLevelProgressView.m; sourceTree = "<group>"; };
+		EBD2AFE71F132FC600E90BAF /* TWNormalLevelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWNormalLevelView.h; sourceTree = "<group>"; };
+		EBD2AFE81F132FC600E90BAF /* TWNormalLevelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWNormalLevelView.m; sourceTree = "<group>"; };
+		EBD2AFEA1F132FD600E90BAF /* TWLastLevelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWLastLevelView.h; sourceTree = "<group>"; };
+		EBD2AFEB1F132FD600E90BAF /* TWLastLevelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWLastLevelView.m; sourceTree = "<group>"; };
+		EBD2AFED1F13308400E90BAF /* TWLevelProgressViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWLevelProgressViewDelegate.h; sourceTree = "<group>"; };
+		EBD2AFEE1F1349E000E90BAF /* TWLevelTestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWLevelTestModel.h; sourceTree = "<group>"; };
+		EBD2AFEF1F1349E000E90BAF /* TWLevelTestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWLevelTestModel.m; sourceTree = "<group>"; };
 		EF73487FC8D5E9A5A8FD6820 /* libPods-TWLevelProgressView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TWLevelProgressView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -125,10 +142,13 @@
 		EBD2AF9D1F13272800E90BAF /* TWLevelProgressView */ = {
 			isa = PBXGroup;
 			children = (
+				EBD2AFD11F1327DD00E90BAF /* TWLevelProgressView */,
 				EBD2AFA11F13272800E90BAF /* AppDelegate.h */,
 				EBD2AFA21F13272800E90BAF /* AppDelegate.m */,
 				EBD2AFA41F13272800E90BAF /* ViewController.h */,
 				EBD2AFA51F13272800E90BAF /* ViewController.m */,
+				EBD2AFEE1F1349E000E90BAF /* TWLevelTestModel.h */,
+				EBD2AFEF1F1349E000E90BAF /* TWLevelTestModel.m */,
 				EBD2AFA71F13272800E90BAF /* Main.storyboard */,
 				EBD2AFAA1F13272800E90BAF /* Assets.xcassets */,
 				EBD2AFAC1F13272800E90BAF /* LaunchScreen.storyboard */,
@@ -162,6 +182,31 @@
 				EBD2AFC51F13272800E90BAF /* Info.plist */,
 			);
 			path = TWLevelProgressViewUITests;
+			sourceTree = "<group>";
+		};
+		EBD2AFD11F1327DD00E90BAF /* TWLevelProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				EBD2AFDC1F13293A00E90BAF /* Utility */,
+				EBD2AFE11F132BFC00E90BAF /* TWLevelProgressView.h */,
+				EBD2AFE21F132BFC00E90BAF /* TWLevelProgressView.m */,
+				EBD2AFE71F132FC600E90BAF /* TWNormalLevelView.h */,
+				EBD2AFE81F132FC600E90BAF /* TWNormalLevelView.m */,
+				EBD2AFEA1F132FD600E90BAF /* TWLastLevelView.h */,
+				EBD2AFEB1F132FD600E90BAF /* TWLastLevelView.m */,
+				EBD2AFED1F13308400E90BAF /* TWLevelProgressViewDelegate.h */,
+			);
+			path = TWLevelProgressView;
+			sourceTree = "<group>";
+		};
+		EBD2AFDC1F13293A00E90BAF /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				EBD2AFDD1F13294600E90BAF /* UIColor+Utility.h */,
+				EBD2AFDE1F13294600E90BAF /* UIColor+Utility.m */,
+				EBD2AFE01F132B0600E90BAF /* TWCommonMacro.h */,
+			);
+			name = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -351,7 +396,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBD2AFDF1F13294600E90BAF /* UIColor+Utility.m in Sources */,
+				EBD2AFF01F1349E000E90BAF /* TWLevelTestModel.m in Sources */,
 				EBD2AFA61F13272800E90BAF /* ViewController.m in Sources */,
+				EBD2AFEC1F132FD600E90BAF /* TWLastLevelView.m in Sources */,
+				EBD2AFE31F132BFC00E90BAF /* TWLevelProgressView.m in Sources */,
+				EBD2AFE91F132FC600E90BAF /* TWNormalLevelView.m in Sources */,
 				EBD2AFA31F13272800E90BAF /* AppDelegate.m in Sources */,
 				EBD2AFA01F13272800E90BAF /* main.m in Sources */,
 			);
@@ -595,6 +645,7 @@
 				EBD2AFCA1F13272800E90BAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EBD2AFCB1F13272800E90BAF /* Build configuration list for PBXNativeTarget "TWLevelProgressViewTests" */ = {
 			isa = XCConfigurationList;
@@ -603,6 +654,7 @@
 				EBD2AFCD1F13272800E90BAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EBD2AFCE1F13272800E90BAF /* Build configuration list for PBXNativeTarget "TWLevelProgressViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -611,6 +663,7 @@
 				EBD2AFD01F13272800E90BAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
